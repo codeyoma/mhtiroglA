@@ -15,7 +15,7 @@ int main()
 				arr[j] = 1;
 	}
 
-	int input_cycle, input_nbr, min_prime, max_prime, mid_nbr, discnt;
+	int input_cycle, input_nbr, min_prime, max_prime, mid_nbr;
 	scanf("%d", &input_cycle);
 	while (input_cycle)
 	{
@@ -23,7 +23,6 @@ int main()
 		mid_nbr = input_nbr / 2;
 		min_prime = 0;
 		max_prime = 0;
-		discnt = 0;
 		if (arr[mid_nbr] == 0)
 		{
 			min_prime = mid_nbr;
